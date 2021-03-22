@@ -1,0 +1,16 @@
+s={'umesh':21,'bijender':54,'amar':67,'peter':89,'sonu':56}
+a={'python':20,"gaurav":300,'dev':34,"karan":43}
+key_list=s.keys()
+key=list(key_list)
+key_list1=a.keys()
+key1=list(key_list1)
+d=key+key1
+print(d)
+value_list=s.values()
+value=list(value_list)
+value_list1=s.values()
+value1=list(value_list1)
+e=value+value1
+print(e)
+f=zip(d,e)
+print(dict(f))
